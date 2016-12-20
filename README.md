@@ -1,8 +1,9 @@
 # IconateRails
+A call to transform your existing icons in a cool trendy way.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/iconate_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Iconate.js](https://bitshadow.github.io/iconate/) is a tiny performant library for cross-browser icon transformation animations in your projects.
 
-TODO: Delete this and the text above, and describe your gem
+The iconate_rails integrates the Iconate.js with the Rails asset pipeline.
 
 ## Installation
 
@@ -22,7 +23,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Include chosen javascript assets
+
+Add to your `app/assets/javascripts/application.js` if use with jQuery
+
+    //= require iconate
+
+### Include chosen stylesheet assets
+
+Add to your `app/assets/stylesheets/application.css`
+
+    *= require iconate
 
 ## Development
 
@@ -32,10 +43,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/iconate_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/NishantUpadhyay-BTC/iconate_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
